@@ -22,9 +22,9 @@ a:hover {
 }
 
 header {
-  display: flex;              /* active Flexbox */
-  flex-direction: row;        /* les éléments sur une ligne */
-  align-items: center;        /* aligne verticalement au centre */
+  display: flex; 
+  flex-direction: row;       
+  align-items: center;        
   padding: 10px 20px;
   background-color: black;
 }
