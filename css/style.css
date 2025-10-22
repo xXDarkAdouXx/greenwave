@@ -45,25 +45,25 @@ header nav ul li a {
 
 footer {
   color: #0e9327;
-  position: fixed;           /* Toujours en bas de la page */
-  bottom: 20px;              /* Un petit espace avec le bas */
-  left: 50%;                 /* Centrer horizontalement */
+  position: fixed;           
+  bottom: 20px;             
+  left: 50%;                 
   transform: translateX(-50%);
   
-  background-color: #000000; /* Couleur de fond du rectangle */
-  padding: 8px 16px;        /* Espacement intérieur */
-  border-radius: 15px;       /* Angles arrondis */
+  background-color: #000000; 
+  padding: 8px 16px;    
+  border-radius: 15px;    
   
   margin:auto;
   text-align: center;
   font-family: Arial, sans-serif;
 }
 footer a {
-  text-decoration: none;     /* Enlève le soulignement */
-  color: #5e5e5e;               /* Couleur du texte */
+  text-decoration: none;    
+  color: #5e5e5e;               
   font-weight: bold;
 }
 footer a:hover {
 
-  color: #ffffff;            /* Couleur au survol */
+  color: #ffffff;        
 }
