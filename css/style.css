@@ -54,8 +54,14 @@ footer {
   padding: 8px 16px;        /* Espacement intérieur */
   border-radius: 15px;       /* Angles arrondis */
   
+  margin:auto;
   text-align: center;
   font-family: Arial, sans-serif;
+}
+footer a {
+  text-decoration: none;     /* Enlève le soulignement */
+  color: #5e5e5e;               /* Couleur du texte */
+  font-weight: bold;
 }
 footer a:hover {
 
