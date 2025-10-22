@@ -6,7 +6,7 @@ body {
   line-height: 1.6;
 }
 
-a {
+main a {
   color: #0060B6;
   text-decoration: none;
 }
@@ -41,4 +41,23 @@ header nav ul li a {
   text-decoration: none;
   color: white;
   font-weight: bold;
+}
+
+footer {
+  color: #0e9327;
+  position: fixed;           /* Toujours en bas de la page */
+  bottom: 20px;              /* Un petit espace avec le bas */
+  left: 50%;                 /* Centrer horizontalement */
+  transform: translateX(-50%);
+  
+  background-color: #000000; /* Couleur de fond du rectangle */
+  padding: 8px 16px;        /* Espacement intérieur */
+  border-radius: 15px;       /* Angles arrondis */
+  
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+footer a:hover {
+
+  color: #ffffff;            /* Couleur au survol */
 }
