@@ -16,3 +16,29 @@ a:hover {
   text-decoration:none; 
   cursor:pointer;  
 }
+
+.logo {
+  height: 100px;
+}
+
+header {
+  display: flex;              /* active Flexbox */
+  flex-direction: row;        /* les éléments sur une ligne */
+  align-items: center;        /* aligne verticalement au centre */
+  padding: 10px 20px;
+  background-color: black;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;           
+  gap: 20px;
+  width: 100%;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
