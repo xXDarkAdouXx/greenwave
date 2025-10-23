@@ -1,4 +1,4 @@
-/* ---------- RESET DE BASE ---------- */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,16 +6,16 @@
 }
 
 
-/* ---------- STYLE GLOBAL ---------- */
+
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #e8f5e9; /* vert très clair */
-  color: #1b5e20; /* vert foncé */
+  background-color: #e8f5e9; 
+  color: #1b5e20; 
   line-height: 1.6;
   padding: 40px;
 }
 
-/* ---------- SECTION PRINCIPALE ---------- */
+
 main {
   max-width: 800px;
   margin: 0 auto;
@@ -23,10 +23,10 @@ main {
   border-radius: 15px;
   box-shadow: 0 4px 15px rgba(0, 100, 0, 0.15);
   padding: 30px;
-  border: 2px solid #a5d6a7; /* vert doux */
+  border: 2px solid #a5d6a7; 
 }
 
-/* ---------- TITRE PRINCIPAL ---------- */
+
 #mentions-legales h2 {
   text-align: center;
   color: #2e7d32;
@@ -37,20 +37,20 @@ main {
   padding-bottom: 5px;
 }
 
-/* ---------- PARAGRAPHES ---------- */
+
 #mentions-legales p {
   margin-bottom: 15px;
   font-size: 1rem;
   color: #33691e;
 }
 
-/* ---------- ÉLÉMENTS EN GRAS ---------- */
+
 #mentions-legales strong {
   color: #1b5e20;
   font-weight: 600;
 }
 
-/* ---------- LIENS (email, etc.) ---------- */
+
 a {
   color: #2e7d32;
   text-decoration: none;
@@ -63,13 +63,13 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ---------- MISE EN VALEUR VISUELLE ---------- */
+
 section#mentions-legales {
   border-left: 6px solid #4caf50;
   padding-left: 20px;
 }
 
-/* ---------- RESPONSIVE ---------- */
+
 @media (max-width: 600px) {
   body {
     padding: 20px;

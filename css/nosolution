@@ -1,0 +1,71 @@
+/* Reset et polices */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Contenu principal */
+main {
+    padding: 2rem 5%;
+}
+
+/* Section media avec alternance */
+.media {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+    gap: 3rem;
+}
+
+.media:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.media img {
+    width: 45%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    width: 55%;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #27ae60;
+    margin-bottom: 1rem;
+}
+
+.lead {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.meta {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    .media {
+        flex-direction: column !important;
+    }
+
+    .media img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .content {
+        width: 100%;
+    }
+}
